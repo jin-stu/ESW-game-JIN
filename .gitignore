@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+TA-ESW/
+data/save.json
+game_loop.py
+joytest.py
+test_display.py

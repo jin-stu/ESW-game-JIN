@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "/home/choi/env/bin/python",
+    "python-envs.defaultEnvManager": "ms-python.python:venv"
+}
