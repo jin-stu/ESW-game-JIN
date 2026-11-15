@@ -1,4 +1,5 @@
 {
     "python.defaultInterpreterPath": "/home/choi/env/bin/python",
-    "python-envs.defaultEnvManager": "ms-python.python:venv"
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "git.ignoredRepositories": ["/home/choi/pi-game/TA-ESW"]
 }
