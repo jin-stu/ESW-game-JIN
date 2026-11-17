@@ -1,0 +1,17 @@
+# X: 벽테두리, .: 바닥, U: 앞 벽 위, L: 앞 벽 아래, T: 교탁, D: 책상, C:의자, E: 출구
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XUUUUUUUUUUUBBBBUUUUUUUUUUUX
+XLLLLLLLLLLLLLLLLLLLLLLLLLLX
+E............TT............X
+E............TT............X
+X..........................X
+X..DC..DC..DC..DC..DC..DC..X
+X..........................X
+X..DC..DC..DC..DC..DC..DC..X
+X..........................X
+X..DC..DC..DC..DC..DC..DC..X
+X..........................X
+X..DC..DC..DC..DC..DC..DC..X
+E..........................X
+E..........................X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX

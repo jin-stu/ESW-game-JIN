@@ -1,0 +1,9 @@
+#X: 벽테두리, .: 바닥, U: 앞 벽 위, L: 앞 벽 아래, E: 출구, M: 세면대, P: 소변기, H:대변기 칸
+XXXXXXXXXXXXXXXXXX
+XUUUUUUUUUUUUUUUUX
+XMMMLLLLLPLPLPLPLX
+E................X
+E................X
+XXXXXXXXXHHHHHHHHX
+XXXXXXXXXHHHHHHHHX
+XXXXXXXXXXXXXXXXXX
