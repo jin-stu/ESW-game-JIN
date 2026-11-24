@@ -28,6 +28,8 @@ TILESETS = {
     "computerroom": {                     
         "X": "classroom/classroom_wall_top.png",
         "W": "computerroom/computerroom_wall.png",
+        "U": "computerroom/computerroom_wall_upper.png",
+        "L": "computerroom/computerroom_wall_lower.png",
         ".": "classroom/classroom_floor.png",
         "K": "computerroom/computerroom_table.png",
         "I": "computerroom/computerroom_chair.png",

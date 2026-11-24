@@ -1,7 +1,7 @@
 # X: 벽테두리, .: 바닥, E: 출구, W: 벽, P: 컴퓨터 책상, I: 컴퓨터실 의자
 XXXXXXXXXXXXX
-XWWWWWWWWWWWX
-XWWWWWWWWWWWX
+XUUUUUUUUUUUX
+XLLLLLLLLLLLX
 X...........E
 X...........E
 X.KKK..KKK..X
