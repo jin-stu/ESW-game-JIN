@@ -3,8 +3,6 @@ from config import BASE_DIR, TILE, SPEED, HIDE_SPOTS
 
 HIT_W, HIT_H = 10, 6                  # 발밑 충돌 박스
 DOWN, UP, RIGHT, LEFT = 0, 1, 2, 3    # 스프라이트 시트 줄 순서
-WALK = [1, 0, 2, 0]                   # 걷기 프레임 순서
-
 
 class Player:
     def __init__(self, x, y):
@@ -78,6 +76,6 @@ class Player:
     def draw(self, image, camera_x, camera_y):
         if self.hidden:
             return                                  # 숨으면 안 그림
-        col = WALK[self.step // 4 % 4] if self.step > 0 else 0
+        col = self.step // 4 % 4 if self.step > 0 else 1
         frame = self.sheet.crop((col * 16, self.facing * 24, col * 16 + 16, self.facing * 24 + 24))
         image.alpha_composite(frame, (self.x - camera_x, self.y - camera_y))
