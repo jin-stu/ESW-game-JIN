@@ -4,13 +4,13 @@ XWWWWWWWWWWWX
 XWWWWWWWWWWWX
 X...........E
 X...........E
-X.PPP..PPP..X
+X.KKK..KKK..X
 X.III..III..X
 X...........X
-X.PPP..PPP..X
+X.KKK..KKK..X
 X.III..III..X
 X...........X
-X.PPP..PPP..X
+X.KKK..KKK..X
 X.III..III..X
 X...........E
 X...........E
