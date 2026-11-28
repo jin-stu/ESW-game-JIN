@@ -10,8 +10,6 @@ TILESETS = {
         "U": "classroom/classroom_wall_upper.png",
         "L": "classroom/classroom_wall_lower.png",
         ".": "classroom/classroom_floor.png",
-        "D": "classroom/classroom_desk.png",
-        "C": "classroom/classroom_chair.png",
     },
     "hallway": {
         "X": "classroom/classroom_wall_top.png",
@@ -31,17 +29,20 @@ TILESETS = {
         "U": "computerroom/computerroom_wall_upper.png",
         "L": "computerroom/computerroom_wall_lower.png",
         ".": "classroom/classroom_floor.png",
-        "K": "computerroom/computerroom_table.png",
-        "I": "computerroom/computerroom_chair.png",
     },
 }
 
 # 물건 칸 밑에 깔 바탕 타일
 BASE_OF = {"B": "U", "G": "U", "M": "L", "P": "L",
-           "T": ".", "H": ".", "S": ".", "s": ".", "E": "."}
+           "T": ".", "H": ".", "S": ".", "s": ".", "E": ".",
+           "D": ".", "C": ".", "K": ".", "I": "."}
 
 # 타일보다 큰 물건 -> (그림, 가로 칸 수, 세로 칸 수, y 보정)
 OBJECTS = {
+    "D": ("classroom/classroom_desk.png", 1, 1, 0),
+    "C": ("classroom/classroom_chair.png", 1, 1, 0),
+    "K": ("computerroom/computerroom_table.png", 3, 1, 0),
+    "I": ("computerroom/computerroom_chair.png", 1, 1, 0),
     "B": ("classroom/classroom_blackboard.png", 4, 1, -4),
     "T": ("classroom/classroom_lectern.png", 2, 2, 0),
     "G": ("hallway/hallway_glassdoor.png", 2, 2, 0),
